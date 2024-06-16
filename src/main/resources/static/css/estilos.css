@@ -53,7 +53,7 @@ footer {
 a {
     text-decoration: none;
     background-color: green;
-    color: white;
+    color: white;    
 }
 
 a:hover {
@@ -72,6 +72,14 @@ tbody tr:nth-child(even) {
 }
 
 h1 {
-    margin-left: 500px;
+    margin-left: 350px;
     color: black;
+}
+
+nav {
+   margin-left: 280px; 
+}
+
+p {
+   margin-top: 15px; 
 }
