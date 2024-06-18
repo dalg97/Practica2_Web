@@ -5,11 +5,66 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
 -->
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>Parques Nacionales</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
-        <div>TODO write content</div>
+        <header class="header">
+            <nav class="nav">
+                <ul class="nav-menu" style="float: right;margin-right: 35px;margin-top: 35px">
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="index.html">Inicio</a></li>   
+                </ul>
+            </nav>
+            <br>
+            <h1>Parque Nacional Chirripo</h1>
+        </header>
+        <aside class="aside">
+            <h2 id="audio">Flora y Fauna</h2>
+            <p>Ejemplos encontrados en el parque nacional</p>
+            <br>
+            <img src="imagenes/fauna_arenal.jpeg" alt=""/>
+            <br>
+            <br>
+            <img src="imagenes/flora_arenal.jpg" alt=""/>
+        </aside>
+        <section>
+           <p> Chirripó es una palabra Cabécar cuyo significado es “Tierra de las Aguas Eternas”, en este lugar existen modeladas y variadas formas glaciares tales como valles en forma de U, morrenas, terrazas, glaciares, lagos y circos glaciales que atestiguan el paso de grandes lenguas de hielo cuya acción data desde hace aproximadamente 25.000 años. </p>
+           <br>
+           <p> En Chirripó, cada sitio es único. Desde el inicio del recorrido la vista se refresca con los bosques premontanos y su gran diversidad de especies. Después está el bosque nuboso, un área llena de plantas epífitas (aéreas) que cubren los troncos y las ramas de los árboles.</p>
+           <br><!-- comment -->
+           <h2>Caracteristicas</h2><!-- -->
+           <ul><!-- Listas no ordenadas -->
+             <li>Altitudes desde los 1,200 hasta los 3,821 metros sobre el nivel del mar</li> <!-- list item -->
+             <li>Alrededor del parque habitan comunidades indígenas, como los cabécares y bribris</li>
+           </ul>
+           <br>
+           <article>
+               <figure>
+                 <iframe width="350" height="250" src="https://www.youtube.com/embed/eOhW_HNBS5k" title="Tesoro Natural: Parque Nacional Chirripó" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d251849.24104529587!2d-83.68084866623221!3d9.496168329547595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa14ac81e02a64f%3A0x62c0b48bcbb5004c!2sParque%20Nacional%20Chirrip%C3%B3!5e0!3m2!1ses-419!2scr!4v1718671389430!5m2!1ses-419!2scr" width="350" height="250" style="border:0;position: relative;left: 30px" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+               </figure>
+               <br>
+               <form action="#">                       
+                    <tbody>
+                        <tr>
+                            <td>Correo para recibir mas informacion</td>
+                            <td><input type="email" 
+                                name="correo" placeholder="correo@correo.com"
+                                size="25"/></td>
+                            <td><input type="reset" value="Limpiar"/>
+                                <input type="submit" value="Enviar"/>
+                            </td>
+                        </tr>
+                    </tbody>
+               </form>                      
+           </article>         
+        </section>
+        <br>
+        <br>
+        <footer class="footer">
+            <p>Derechos Reservados SINAC &COPY; 2024</p>
+        </footer>
     </body>
 </html>
